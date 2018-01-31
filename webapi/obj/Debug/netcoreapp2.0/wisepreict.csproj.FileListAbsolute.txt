@@ -1,0 +1,10 @@
+C:\Repos\.NET\WisePredict\webapi\bin\Debug\netcoreapp2.0\wisepreict.deps.json
+C:\Repos\.NET\WisePredict\webapi\bin\Debug\netcoreapp2.0\wisepreict.runtimeconfig.json
+C:\Repos\.NET\WisePredict\webapi\bin\Debug\netcoreapp2.0\wisepreict.runtimeconfig.dev.json
+C:\Repos\.NET\WisePredict\webapi\bin\Debug\netcoreapp2.0\wisepreict.dll
+C:\Repos\.NET\WisePredict\webapi\bin\Debug\netcoreapp2.0\wisepreict.pdb
+C:\Repos\.NET\WisePredict\webapi\obj\Debug\netcoreapp2.0\wisepreict.csproj.CoreCompileInputs.cache
+C:\Repos\.NET\WisePredict\webapi\obj\Debug\netcoreapp2.0\wisepreict.AssemblyInfoInputs.cache
+C:\Repos\.NET\WisePredict\webapi\obj\Debug\netcoreapp2.0\wisepreict.AssemblyInfo.cs
+C:\Repos\.NET\WisePredict\webapi\obj\Debug\netcoreapp2.0\wisepreict.dll
+C:\Repos\.NET\WisePredict\webapi\obj\Debug\netcoreapp2.0\wisepreict.pdb

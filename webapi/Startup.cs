@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using AutoMapper;
+using webapi.Mappings;
 
 namespace wisepreict
 {
@@ -22,8 +24,11 @@ namespace wisepreict
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        { 
+            services.AddAutoMapper();
             services.AddMvc();
+            
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,9 +37,19 @@ namespace wisepreict
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                // app.UseWebpackDevMiddleware(new WebpackDevMiddleware()
+                //     {
+                //         HotModuleReplacement = true
+                //     }
+                // );
+            }
+            else
+            {
+                
             }
 
             app.UseMvc();
         }
     }
 }
+
